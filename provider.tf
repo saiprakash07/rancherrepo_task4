@@ -29,3 +29,8 @@ provider "rancher2" {
  access_key = "token-2mw2f"
  secret_key = "7pwth5pfn4dwl82s8jj5h776f9w9hhmcwxnh4cb9gnbvtdqlxqtrmf"
 }
+
+provider "azurerm" {
+  # Configuration options
+  features {}
+}
